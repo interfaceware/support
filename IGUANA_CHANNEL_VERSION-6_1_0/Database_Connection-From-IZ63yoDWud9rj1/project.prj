@@ -1,0 +1,16 @@
+{
+    "LocalDependencies": [
+        "db2.lua",
+        "sampleDB.sqlite"
+    ],
+    "LuaDependencies": [
+        "retry"
+    ],
+    "OtherDependencies": [],
+    "timestamp": "1537969830",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

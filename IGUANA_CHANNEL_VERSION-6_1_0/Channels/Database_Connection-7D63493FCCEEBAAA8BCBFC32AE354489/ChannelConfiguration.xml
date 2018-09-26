@@ -1,0 +1,27 @@
+<channel
+   name="Database Connection"
+   guid="7D63493FCCEEBAAA8BCBFC32AE354489"
+   description="The Database Connection module makes connecting to databases simpler and more reliable.&#xD;&#xA;http://help.interfaceware.com/v6/database-connection&#xD;&#xA;&#xD;&#xA;The module automatically handles database connections and re-connections, and improves performance by keeping the connection open between queries."
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_mapper
+      guid="Database_Connection-From-IZ63yoDWud9rj1"
+      commit_id="3e54dd0b406a7d04d1916c4d4bbb95a59c1203a6"
+      commit_comment="Update comments"
+      poll_time="10000">
+   </from_mapper>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      keep_vmd_updated="false"
+      original_vmd_path=""
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true">
+   </message_filter>
+</channel>
