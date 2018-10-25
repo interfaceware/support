@@ -1,0 +1,16 @@
+<channel
+   name="Immutable Constant Example"
+   guid="4E0490EF251C37EEAF58934DA9FAE450"
+   description="Lua does not support static constants. However, there are a few options that could help you to avoid overwrite static constants. 1) Use ALLCAPS to let other programmers know that these variables are constants. 2) Use lua readonly function to avoid constants overwrite. See detail: https://help.interfaceware.com/v6/how-to-create-re…nstant-variables"
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_mapper
+      guid="Immutable_Constant_Example-From-nCCEAPbYAJe2Dy"
+      commit_id="253cdce92f3f234f1de5a2e3dc6ff03b54aa82d7"
+      commit_comment="Comment out error code"
+      poll_time="10000">
+   </from_mapper>
+</channel>
