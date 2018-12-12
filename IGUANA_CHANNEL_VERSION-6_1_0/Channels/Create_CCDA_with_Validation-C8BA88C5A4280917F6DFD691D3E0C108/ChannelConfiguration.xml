@@ -1,0 +1,14 @@
+<channel
+   name="Create CCDA with Validation"
+   guid="C8BA88C5A4280917F6DFD691D3E0C108"
+   description="This is CCDA generation and validation framework. https://help.interfaceware.com/v6/create-ccda-with-validation&#xD;&#xA;&#xD;&#xA;This module create an sample CCDA with validates based on CCDA Release 2 (2012) or Release 2.1 (2015)"
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="CCD_Write_and_Validate-To-SmSkW4xUbxEm7L"
+      commit_id="65a2b2a473d0b8833467496ff615b9904da6972b"
+      commit_comment="Fix pathseparator issue">
+   </to_mapper>
+   <from_channel/>
+</channel>
