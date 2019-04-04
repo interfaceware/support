@@ -57,8 +57,9 @@ local function parseSchematron()
    --   'xsltproc -o CCDA/Consolidation.xsl edit/admin/other/iso_iso-schematron-xslt1/iso_svrl_for_xslt1.xsl CCDA/Consolidate.sch'
    -- Command for saxon9he
    --   'java -jar saxon9he.jar -o:CCDA\Consolidation.xsl CCDA\Consolidate.sch edit\admin\other\iso_iso-schematron-xslt1\iso_svrl_for_xslt1.xsl'
+   local OtherDir = iguana.project.root()..'other'..utils.pathSeparator
    local CommandsW = {
-      'msxsl -o ',
+      OtherDir..'msxsl -o ',
       'Consolidation.xsl ',
       'Consolidate.sch '..SchDir..'iso_svrl_for_xslt1.xsl'
    }
