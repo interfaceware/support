@@ -1,0 +1,15 @@
+{
+    "LocalDependencies": [],
+    "LuaDependencies": [
+        "encrypt.password",
+        "password.configs",
+        "password.util"
+    ],
+    "OtherDependencies": [],
+    "timestamp": "1554745664",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

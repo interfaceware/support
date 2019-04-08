@@ -1,0 +1,14 @@
+<channel
+   name="Encrypted Password Utility"
+   guid="F76E3048639457C02041ED72484F01A1"
+   description="This tool enhances encrypt.password module by using an dedicated key and password storage directory. Moreover this module is designed for Production Iguana to manage all encrypted configuration credentials instead of direct editing each translator code in the Production channels. &#xD;&#xA;https://help.interfaceware.com/v6/encrypted-password-utility"
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="Encrypted_Password_Utility-To-8CZckwW4PR2ZUI"
+      commit_id="ef813bb30c080f082a64214b32d9928ddcf9f262"
+      commit_comment="Update main">
+   </to_mapper>
+   <from_channel/>
+</channel>
