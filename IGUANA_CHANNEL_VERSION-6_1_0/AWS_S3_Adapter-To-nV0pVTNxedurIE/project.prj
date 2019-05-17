@@ -1,0 +1,17 @@
+{
+    "LocalDependencies": [
+        "aws/apiHeaderUtil.lua",
+        "aws/configurations.lua",
+        "aws/s3API.lua"
+    ],
+    "LuaDependencies": [
+        "retry"
+    ],
+    "OtherDependencies": [],
+    "timestamp": "1558102333",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

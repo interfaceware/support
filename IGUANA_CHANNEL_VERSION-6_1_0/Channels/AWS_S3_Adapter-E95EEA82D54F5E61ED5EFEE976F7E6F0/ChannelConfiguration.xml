@@ -1,0 +1,14 @@
+<channel
+   name="AWS S3 Adapter"
+   guid="E95EEA82D54F5E61ED5EFEE976F7E6F0"
+   description="This channel connects to AWS S3 APIs that allows Iguana to upload and download files from AWS S3. &#xD;&#xA;&#xD;&#xA;https://help.interfaceware.com/v6/aws-s3-adapter&#xD;&#xA;&#xD;&#xA;"
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="AWS_S3_Adapter-To-nV0pVTNxedurIE"
+      commit_id="68d5f1cf561dea41f1ff58f2ad82c0f41df3edf6"
+      commit_comment="Updated instructions in main() function">
+   </to_mapper>
+   <from_channel/>
+</channel>

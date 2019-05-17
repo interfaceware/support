@@ -1,0 +1,8 @@
+{
+    "Samples": [
+        {
+            "Message": "{\"menu\": {\r  \"id\": \"file\",\r  \"value\": \"File\",\r  \"popup\": {\r    \"menuitem\": [\r      {\"value\": \"New\", \"onclick\": \"CreateNewDoc2()\"},\r      {\"value\": \"Open\", \"onclick\": \"OpenDoc()\"},\r      {\"value\": \"Close\", \"onclick\": \"CloseDoc()\"}\r    ]\r  }\r}}",
+            "Name": "Sample JSON"
+        }
+    ]
+}
