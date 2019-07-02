@@ -9,8 +9,8 @@
    </to_channel>
    <from_mapper
       guid="Immutable_Constant_Example-From-nCCEAPbYAJe2Dy"
-      commit_id="253cdce92f3f234f1de5a2e3dc6ff03b54aa82d7"
-      commit_comment="Comment out error code"
+      commit_id="3cbb773051b144df18cda93f53177fcdaf4bc89f"
+      commit_comment="Import Translators: import"
       poll_time="10000">
    </from_mapper>
 </channel>
