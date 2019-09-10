@@ -1,0 +1,22 @@
+{
+    "LocalDependencies": [
+        "grantAccess.lua",
+        "isSAMLValid.lua",
+        "responseHelp.lua",
+        "responsePyScript.lua"
+    ],
+    "LuaDependencies": [
+        "SAMLconfig",
+        "encrypt.password",
+        "ifw.dateparse",
+        "ifw.store2",
+        "ifw.urlcode"
+    ],
+    "OtherDependencies": [],
+    "timestamp": "1568136321",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

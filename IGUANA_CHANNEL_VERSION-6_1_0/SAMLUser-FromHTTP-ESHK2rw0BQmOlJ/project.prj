@@ -1,0 +1,18 @@
+{
+    "LocalDependencies": [
+        "requestHelp.lua",
+        "requestPyTemplates.lua"
+    ],
+    "LuaDependencies": [
+        "SAMLconfig",
+        "ifw.store2",
+        "ifw.urlcode"
+    ],
+    "OtherDependencies": [],
+    "timestamp": "1568136320",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

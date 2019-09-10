@@ -1,0 +1,16 @@
+<channel
+   name="SAMLAssertion"
+   guid="7427CAA90501AF5DE3A631900CEAA6D4"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_http
+      type="mapper"
+      guid="SAMLAssertion-FromHTTP-rnNqC0YLsloHXN"
+      commit_id="431a8643fbc7555961893fc7666db720a9a83f96"
+      commit_comment="Remove credentials and configs"
+      mapper_url_path="SAMLAssertion"/>
+</channel>

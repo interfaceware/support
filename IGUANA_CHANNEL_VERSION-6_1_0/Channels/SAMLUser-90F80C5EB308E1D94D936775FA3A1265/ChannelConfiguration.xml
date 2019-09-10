@@ -1,0 +1,16 @@
+<channel
+   name="SAMLUser"
+   guid="90F80C5EB308E1D94D936775FA3A1265"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_http
+      type="mapper"
+      guid="SAMLUser-FromHTTP-ESHK2rw0BQmOlJ"
+      commit_id="431a8643fbc7555961893fc7666db720a9a83f96"
+      commit_comment="Remove credentials and configs"
+      mapper_url_path="SAMLUser"/>
+</channel>
